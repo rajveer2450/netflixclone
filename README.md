@@ -1,0 +1,1 @@
+only the basic functionality is yet added, there are a lot of things which can be added like categories, trending this week or anything like that etc.
