@@ -9,12 +9,12 @@ function App() {
 
   const [querys, setQuerys] = useState('');
   return (
-    <Router>
+    <Router basename="/netflixclone">
       <div className="app-container container">
         <header className="site-header">
           <div>
-            <div className="site-title">My Dashboard</div>
-            <div className="site-subtitle muted">Simple, clean UI — beginner-friendly styles</div>
+            <div className="site-title">netflixclone</div>
+            <div className="site-subtitle muted">find movies by searching</div>
           </div>
           <div className="controls">
             <input 
