@@ -9,7 +9,7 @@ function App() {
 
   const [querys, setQuerys] = useState('');
   return (
-    <Router basename="/netflixclone">
+    <Router>
       <div className="app-container container">
         <header className="site-header">
           <div>

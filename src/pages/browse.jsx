@@ -21,7 +21,7 @@ function Browse({ apiKey,query }) {
         {movies.map(movie => (
           <Link to={`/movie/${movie.id}`} key={movie.id} className="movie-card">
             <img 
-              src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} 
+              src={movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : 'https://via.placeholder.com/300x450?text=No+Image'} 
               alt={movie.title} 
               className="poster-img"
             />
