@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Browse from './pages/Browse';
+import Browse from './pages/browse';
 import MovieDetails from './pages/MovieDetails';
 import './App.css';
 const API_KEY = '28cf011b483c183c7864627c779979e1';
