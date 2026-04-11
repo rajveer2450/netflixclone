@@ -35,3 +35,74 @@
 
 .back-button { background: transparent; color: #0f172a; border: 1px solid #e2e8f0; padding: 8px 14px; cursor: pointer; border-radius: 8px; }
 .back-button:hover { background: #f8fafc; }
+
+.details-page {
+  min-height: 70vh;
+}
+
+.hero-banner {
+  min-height: 78vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 14px 40px rgba(2, 6, 23, 0.16);
+}
+
+.hero-overlay {
+  min-height: inherit;
+  background: linear-gradient(90deg, rgba(2, 6, 23, 0.78), rgba(2, 6, 23, 0.2));
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-content {
+  padding: 2rem;
+  max-width: 760px;
+}
+
+.hero-content .back-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.hero-content .back-button:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.details-page .detail-title {
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+
+.details-page .detail-overview {
+  color: #e2e8f0;
+  max-width: 70ch;
+}
+
+.play-button {
+  margin-top: 0.8rem;
+  border: 0;
+  background: #fff;
+  color: #0f172a;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.7rem 1.25rem;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .hero-banner {
+    min-height: 62vh;
+  }
+
+  .hero-content {
+    padding: 1.25rem;
+  }
+
+  .details-page .detail-title {
+    font-size: 1.6rem;
+  }
+}

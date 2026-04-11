@@ -22,8 +22,6 @@ function App() {
                     placeholder="Search for a movie"
                     onChange={(e) => setQuerys(e.target.value)}
                   />
-            <button className="btn">Filters</button>
-            <button className="btn btn-primary">Action</button>
           </div>
         </header>
 
